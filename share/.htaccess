@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ([0-9]+)/([0-9]+)/([0-9]+)/?$ /stats/index.php?y=$1&m=$2&d=$3 [L]
+RewriteRule monthly/([0-9]+)/([0-9]+)/?$ /stats/monthly.php?y=$1&m=$2 [L]
+RewriteRule monthly/?$ /stats/monthly.php [L]

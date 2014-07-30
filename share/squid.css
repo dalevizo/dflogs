@@ -1,0 +1,67 @@
+serial {background-color: #FFFF99;}
+.alert {color: #000000;	background-color: #FFFF99;}
+.toprow {background-color: #e5ecf9;}
+.hover {background-color: #FFFF99;}
+.gone {background-color: #CCCCCC;}
+.tag {font-size: 10px;}
+.high {background-color: #3BB9FF;}
+body,td,th,div,.p,a{font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 12px;}
+div,td{color:#000}
+.f{color:#6f6f6f}
+.flc,.fl:link{color:#77c}
+a:link,.w,a.w:link,.w a:link,.q:visited,.q:link,.q:active,.q{color:#00c}
+a:visited,.fl:visited{color:#00c}
+a:hover,a:active,.fl:active{color:red}
+.t{background:#e5ecf9;color:#000}
+.bb{border-bottom:1px solid #36c}
+.bt{border-top:1px solid #36c}
+.j{width:34em}
+.h{font-size:14px;align:center}
+.i,.i:link{color:#a90a08}
+.a,.a:link{color:green}
+.z{display:none}
+div.n{margin-top:1ex}
+.n a{font-size:10pt;color:#000}
+.n .i{font-size:10pt;font-weight:bold}
+.b a{font-size:12pt;color:#00c;font-weight:bold}
+.ch{cursor:pointer;cursor:hand}
+.tas{padding:3px}
+.taf{padding:3px 3px 6px 3px}
+.tam{padding:6px 3px}
+.tal{padding:6px 3px 3px}
+.e{margin-top:.75em;margin-bottom:.75em}
+.g{margin-top:1em;margin-bottom:1em}
+.m{color:#666;font-size:83%}
+.sm{display:block;margin-top:0;margin-bottom:0;margin-left:40px}
+.bl{display:none}
+.fl2,.fl2:link,.fl2:visited{color:#00c}
+.fl2:active{color:red}
+#nbl{width:100%;height:100%}
+#nbl td{font-size:12.8px;font-weight:bold;color:#333;cursor:pointer;margin:4 0 0;padding:0 8}
+#navbar div,#logo span{background:url(images/nav_logo.png) no-repeat;overflow:hidden;height:26px}
+#navbar .nr{background-position:-60px 0;width:16px}
+#navbar #np{width:44px}
+#navbar #nf{background-position:-26px 0;width:18px}
+#navbar #nc{background-position:-44px 0;width:16px}
+#navbar #nn{background-position:-76px 0;width:66px;margin-right:34px}
+#navbar #nl{background-position:-76px 0;width:46px}
+#logo{display:block;width:150px;height:52px;position:relative;overflow:hidden;margin:15px 0 12px}
+#logo span{background-position:0 -26px;position:absolute;top:0;left:0;width:100%;height:100%}
+.bl{ display:inline !important;}
+.cb{margin:.5ex}
+.img{vertical-align: text-bottom;}
+#container { 
+height: 100%; 
+padding: 5px; 
+} 
+#div1 { 
+margin: 0;
+width: 48%;
+float: left; 
+} 
+#div2 { 
+margin: 0 0 0 10px; 
+width: 48%; 
+float: left; 
+}
+#header {font-size: 14px;text-align: center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold}
