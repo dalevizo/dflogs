@@ -54,18 +54,19 @@ Not much to say here.
 
 The share directory contains a .htaccess file with some useful rewrite rules so you can use the more friendly /stats/2009/12/31 url instead of /stats/index.php?y=2009&m=12&d=31 In order to work you need to put this
 
-> AllowOverride All
+```
+AllowOverride All
+```
 
 in your apache config for the specific directory.
 
 Of course you can always add the rules straight into the apache conf file.
-
-><Directory /usr/local/dflogs/share>
->        Options Indexes FollowSymlinks
->        RewriteEngine on
->        RewriteRule ([0-9]+)/([0-9]+)/([0-9]+)/?$ /stats/index.php?y=$1&m=$2&d=$3 [L]
->        RewriteRule monthly/([0-9]+)/([0-9]+)/?$ /stats/monthly.php?y=$1&m=$2 [L]
->        RewriteRule monthly/?$ /stats/monthly.php [L]
-></Directory>
-
-
+```
+<Directory /usr/local/dflogs/share>
+        Options Indexes FollowSymlinks
+        RewriteEngine on
+        RewriteRule ([0-9]+)/([0-9]+)/([0-9]+)/?$ /stats/index.php?y=$1&m=$2&d=$3 [L]
+        RewriteRule monthly/([0-9]+)/([0-9]+)/?$ /stats/monthly.php?y=$1&m=$2 [L]
+        RewriteRule monthly/?$ /stats/monthly.php [L]
+</Directory>
+```
